@@ -1,0 +1,12 @@
+.PageTitle {
+  background: #ffffff;
+  font-size: 36px;
+  color: #2d313d;
+  font-family: "Georgia";
+  padding: 27px 0 27px 30px;
+}
+
+.PageTitle .dashed {
+  border-bottom: 1px dashed black;
+}
+/*# sourceMappingURL=pageTitle.css.map */

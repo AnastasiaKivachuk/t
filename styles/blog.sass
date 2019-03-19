@@ -1,0 +1,61 @@
+$mainFont: 'Arial'
+$colorTag: #99a1b3
+$colorText: #333333
+.blog
+    background: #ffffff
+    
+    .post
+        padding: 22px 22px 0 30px
+
+        display: flex
+        justify-content: flex-start
+
+        .infoUser
+            margin-left: 15px
+
+            .firstLine
+                display: flex
+                justify-content: space-between
+
+            h2 
+                font-size: 18px
+                color: #4f9cd4
+                font-family: $mainFont
+                margin: 0 0 5px 0
+
+            p
+                font-size: 12px
+                color: $colorText
+                font-family: $mainFont
+                margin: 0 0 15px 0
+
+            .tags, .status, .userName, .badges
+                font-size: 12px
+                color: $colorTag
+                font-family: $mainFont
+
+            .status
+                background-color: #f2f4f8
+                display: inline-block
+                padding: 5px 15px
+                border-radius: 6px
+                margin-left: 35px
+                
+.buttons
+    padding: 30px 0
+    margin: 0 auto
+    text-align: center
+
+.buttonPrevious
+    border: 1px solid black
+    border-radius: 5px
+    padding: 8px 15px 
+    display: inline-block
+    font-size: 14px
+    color: #2d313d
+    font-family: $mainFont
+    text-decoration: none
+
+.buttonNext
+    @extend .buttonPrevious
+

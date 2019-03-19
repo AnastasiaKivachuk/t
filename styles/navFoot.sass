@@ -1,0 +1,28 @@
+$colorFooter: #99a1b3
+$mainFont: 'Arial'
+$backgroundFoot: #f2f4f8
+
+.mainInfo
+    width: 82%
+
+    .foot
+        
+
+        .menuFoot
+            margin: 0
+            padding: 0  0 0 30px
+            display: flex
+            justify-content: flex-start
+            background: $backgroundFoot
+
+            .menuFootLi                 
+                text-decoration: none
+                list-style-type: none
+                font-size: 12px
+                line-height: 45px
+                color: $colorFooter
+                font-family: $mainFont
+
+                a 
+                    @extend .menuFootLi
+                    margin: 0

@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,UAAU,CAAC;EACP,UAAU,EAAE,OAAO;EACnB,SAAS,EAAE,IAAI;EACf,KAAK,EAAE,OAAO;EACd,WAAW,EANL,SAAS;EAOf,OAAO,EAAE,gBAAgB;CAGY;;AARzC,AAOI,UAPM,CAON,OAAO,CAAC;EACP,aAAa,EAAE,gBAAgB;CAAG",
+    "sources": [
+        "pageTitle.sass"
+    ],
+    "names": [],
+    "file": "pageTitle.css"
+}

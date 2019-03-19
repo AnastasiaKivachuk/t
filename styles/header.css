@@ -1,0 +1,97 @@
+@font-face {
+  font-family: "Arial";
+  src: url("../fonts/Arial.ttf");
+}
+
+@font-face {
+  font-family: "Georgia";
+  src: url("../fonts/Georgia.ttf");
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f2f4f8;
+}
+
+body header {
+  background-color: #2d313d;
+}
+
+.mainWidth {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainWidth .logo {
+  background-image: url("../images/logo.png");
+  height: 20px;
+  width: 32px;
+}
+
+.mainWidth .userProf {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mainWidth .userProf p, .mainWidth .userProf #city {
+  font-size: 14px;
+  letter-spacing: 0px;
+  font-family: "Arial";
+  display: inline-block;
+  color: #727989;
+  margin-left: 34px;
+}
+
+.bell {
+  background-image: url("../images/bell.png");
+  height: 22px;
+  width: 18px;
+  margin-left: 35px;
+}
+
+.message {
+  background-image: url("../images/mes.png");
+  height: 16px;
+  width: 22px;
+  margin-left: 28px;
+}
+
+.userPhoto {
+  background-image: url("../images/user.png");
+  height: 30px;
+  width: 30px;
+  background-position: center;
+  border-radius: 1px;
+  margin-left: 10px;
+}
+
+.searchIcon {
+  background-image: url("../images/search.png");
+  height: 22px;
+  width: 21px;
+  margin-left: 25px;
+}
+
+#city {
+  background-color: #2d313d;
+  border: none;
+}
+/*# sourceMappingURL=header.css.map */

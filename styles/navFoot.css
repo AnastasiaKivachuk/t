@@ -1,0 +1,29 @@
+.mainInfo {
+  width: 82%;
+}
+
+.mainInfo .foot .menuFoot {
+  margin: 0;
+  padding: 0  0 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: #f2f4f8;
+}
+
+.mainInfo .foot .menuFoot .menuFootLi, .mainInfo .foot .menuFoot .menuFootLi a {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 12px;
+  line-height: 45px;
+  color: #99a1b3;
+  font-family: "Arial";
+}
+
+.mainInfo .foot .menuFoot .menuFootLi a {
+  margin: 0;
+}
+/*# sourceMappingURL=navFoot.css.map */

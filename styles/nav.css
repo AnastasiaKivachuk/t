@@ -1,0 +1,45 @@
+nav {
+  background: #646d81;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav ul {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0;
+}
+
+nav ul li, nav ul a {
+  font-size: 14px;
+  color: #ffffff;
+  font-family: "Arial";
+  text-decoration: none;
+  list-style-type: none;
+  line-height: 40px;
+  margin-right: 20px;
+}
+
+nav ul .rectangleOverMenu {
+  background: #ffffff;
+  height: 5px;
+  width: 70px;
+  position: absolute;
+  top: 64px;
+  border-radius: 1px;
+  display: none;
+}
+
+nav ul a:hover .rectangleOverMenu {
+  display: block;
+}
+/*# sourceMappingURL=nav.css.map */

@@ -1,0 +1,72 @@
+.blog {
+  background: #ffffff;
+}
+
+.blog .post {
+  padding: 22px 22px 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.blog .post .infoUser {
+  margin-left: 15px;
+}
+
+.blog .post .infoUser .firstLine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog .post .infoUser h2 {
+  font-size: 18px;
+  color: #4f9cd4;
+  font-family: "Arial";
+  margin: 0 0 5px 0;
+}
+
+.blog .post .infoUser p {
+  font-size: 12px;
+  color: #333333;
+  font-family: "Arial";
+  margin: 0 0 15px 0;
+}
+
+.blog .post .infoUser .tags, .blog .post .infoUser .status, .blog .post .infoUser .userName, .blog .post .infoUser .badges {
+  font-size: 12px;
+  color: #99a1b3;
+  font-family: "Arial";
+}
+
+.blog .post .infoUser .status {
+  background-color: #f2f4f8;
+  display: inline-block;
+  padding: 5px 15px;
+  border-radius: 6px;
+  margin-left: 35px;
+}
+
+.buttons {
+  padding: 30px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.buttonPrevious, .buttonNext {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 8px 15px;
+  display: inline-block;
+  font-size: 14px;
+  color: #2d313d;
+  font-family: "Arial";
+  text-decoration: none;
+}
+/*# sourceMappingURL=blog.css.map */
