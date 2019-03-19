@@ -1,11 +1,12 @@
-nav {
+.head {
   background: #646d81;
   width: 100%;
   margin: 0 auto;
 }
 
-nav ul {
-  max-width: 1280px;
+.head ul {
+  min-width: 1280px;
+  max-width: 1322px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -19,7 +20,7 @@ nav ul {
   padding: 0;
 }
 
-nav ul li, nav ul a {
+.head ul li, .head ul a {
   font-size: 14px;
   color: #ffffff;
   font-family: "Arial";
@@ -29,7 +30,7 @@ nav ul li, nav ul a {
   margin-right: 20px;
 }
 
-nav ul .rectangleOverMenu {
+.head ul .rectangleOverMenu {
   background: #ffffff;
   height: 5px;
   width: 70px;
@@ -39,7 +40,7 @@ nav ul .rectangleOverMenu {
   display: none;
 }
 
-nav ul a:hover .rectangleOverMenu {
+.head ul a:hover .rectangleOverMenu {
   display: block;
 }
 /*# sourceMappingURL=nav.css.map */

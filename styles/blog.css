@@ -1,5 +1,6 @@
 .blog {
   background: #ffffff;
+  width: calc(100%-172px);
 }
 
 .blog .post {

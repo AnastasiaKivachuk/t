@@ -1,5 +1,6 @@
 main {
-  max-width: 1280px;
+  min-width: 1280px;
+  max-width: 1322px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -10,19 +11,19 @@ main {
 }
 
 main aside {
-  width: 18%;
+  width: 172px;
   border-left: 1px solid #e0e4ed;
   border-right: 1px solid #e0e4ed;
   background: #fcfdfe;
 }
 
-main aside ul {
+main aside .sidebar {
   margin: 0;
   padding: 30px 0 0 0;
+  width: 172px;
 }
 
-main aside ul li, main aside ul li a {
-  width: 100%;
+main aside .sidebar li, main aside .sidebar li a {
   text-decoration: none;
   list-style-type: none;
   font-size: 14px;
@@ -31,12 +32,11 @@ main aside ul li, main aside ul li a {
   font-family: "Arial";
 }
 
-main aside ul li a {
-  width: 100%;
+main aside .sidebar li a {
   margin: 0 0 0 30px;
 }
 
-main aside ul li h3 {
+main aside .sidebar li h3 {
   font-size: 18px;
   line-height: 32px;
   color: #333333;
@@ -44,7 +44,7 @@ main aside ul li h3 {
   margin: 0;
 }
 
-main aside ul li .rectangleLeftAside {
+main aside .sidebar li .rectangleLeftAside {
   background: #99a1b3;
   height: 18px;
   width: 5px;
@@ -55,13 +55,13 @@ main aside ul li .rectangleLeftAside {
   margin: 0 25px 0 0;
 }
 
-main aside ul li a:hover .rectangleLeftAside {
+main aside .sidebar li a:hover .rectangleLeftAside {
   display: inline-block;
   margin: 0 25px 0 0;
   padding: 0;
 }
 
-main aside ul li a:hover {
+main aside .sidebar li a:hover {
   color: #333333;
   line-height: 32px;
   margin: 0;

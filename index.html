@@ -14,6 +14,7 @@
     <link href="styles/pageTitle.css" rel="stylesheet">
     <link href="styles/search.css" rel="stylesheet">
     <link href="styles/blog.css" rel="stylesheet">
+    <link href="styles/tabletVersion.css" rel="stylesheet">
 </head>
 
 <body>
@@ -35,7 +36,7 @@
             </div>
         </div>
     </header>
-    <nav id="head">
+    <nav class="head">
         <ul>
             <li><a href='#'>
                     <div class="rectangleOverMenu"></div>Menu item
@@ -57,7 +58,7 @@
     <main>
 
         <aside>
-            <ul>
+            <ul class="sidebar">
                 <li><a href="#">
                         <div class="rectangleLeftAside"></div>Submenu item 7d
                     </a></li>
@@ -99,7 +100,6 @@
                     </a></li>
                 <li><a href="#">
                         <div class="rectangleLeftAside"></div>Submenu item1 &
-                        Submenuitem2 2d
                     </a></li>
                 <li><a href="#">
                         <div class="rectangleLeftAside"></div>Submenu item 7d
@@ -145,14 +145,18 @@
                     <img src="images/photo1.png" alt='photo1 of user' width="60px" height="60px">
                     <div class="infoUser">
                         <div class="firstLine">
-                            <div class='userName'>User name <div class='status'>Pro</div></div> 
-                            <div class="badges"><img src="images/Icon Comment.png" alt="comment">  2 <img src="images/Clock.png" alt="clock">  20m</div>
+                            <div class='userName'>User name <div class='status'>Pro</div>
+                            </div>
+                            <div class="badges"><img src="images/Icon Comment.png" alt="comment"> 2 <img
+                                    src="images/Clock.png" alt="clock"> 20m</div>
                         </div>
                         <h2>
-                                Item title 1
+                            Item title 1
                         </h2>
                         <p>
-                                Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.</p>
+                            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Nullam ac
+                            urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet
+                            nisi. Proin condimentum fermentum nunc.</p>
                         <div class="tags">
                             <img src="images/Tag.png" alt='tag'>
                             tag1, tag2, tag3
@@ -161,68 +165,80 @@
                 </div>
 
                 <div class="post">
-                        <img src="images/photo2.png" alt='photo2 of user' width="60px" height="60px">
-                        <div class="infoUser">
-                            <div class="firstLine">
-                                <div class='userName'>User name <div class='status'>Member</div></div> 
-                                <div class="badges"><img src="images/Icon Comment.png" alt="comment">  2 <img src="images/Clock.png" alt="clock">  20m</div>
+                    <img src="images/photo2.png" alt='photo2 of user' width="60px" height="60px">
+                    <div class="infoUser">
+                        <div class="firstLine">
+                            <div class='userName'>User name <div class='status'>Member</div>
                             </div>
-                            <h2>
-                                    Item title 2
-                            </h2>
-                            <p>
-                                    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. 
-                            </p>
-                            <div class="tags">
-                                <img src="images/Tag.png" alt='tag'>
-                                tag1, tag2, tag3
-                            </div>
+                            <div class="badges"><img src="images/Icon Comment.png" alt="comment"> 2 <img
+                                    src="images/Clock.png" alt="clock"> 20m</div>
+                        </div>
+                        <h2>
+                            Item title 2
+                        </h2>
+                        <p>
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                            Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non
+                            neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.
+                        </p>
+                        <div class="tags">
+                            <img src="images/Tag.png" alt='tag'>
+                            tag1, tag2, tag3
                         </div>
                     </div>
+                </div>
 
-                    <div class="post">
-                            <img src="images/photo3.png" alt='photo3 of user' width="60px" height="60px">
-                            <div class="infoUser">
-                                <div class="firstLine">
-                                    <div class='userName'>User name <div class='status'>Member</div></div> 
-                                    <div class="badges"><img src="images/Icon Comment.png" alt="comment">  2 <img src="images/Clock.png" alt="clock">  20m</div>
-                                </div>
-                                <h2>
-                                        Item title 3
-                                </h2>
-                                <p>
-                                        Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.</p>
-                                <div class="tags">
-                                    <img src="images/Tag.png" alt='tag'>
-                                    tag1, tag2, tag3
-                                </div>
+                <div class="post">
+                    <img src="images/photo3.png" alt='photo3 of user' width="60px" height="60px">
+                    <div class="infoUser">
+                        <div class="firstLine">
+                            <div class='userName'>User name <div class='status'>Member</div>
                             </div>
+                            <div class="badges"><img src="images/Icon Comment.png" alt="comment"> 2 <img
+                                    src="images/Clock.png" alt="clock"> 20m</div>
                         </div>
+                        <h2>
+                            Item title 3
+                        </h2>
+                        <p>
+                            Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Nullam ac
+                            urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet
+                            nisi. Proin condimentum fermentum nunc.</p>
+                        <div class="tags">
+                            <img src="images/Tag.png" alt='tag'>
+                            tag1, tag2, tag3
+                        </div>
+                    </div>
+                </div>
 
-                        <div class="post">
-                                <img src="images/photo4.png" alt='photo4 of user' width="60px" height="60px">
-                                <div class="infoUser">
-                                    <div class="firstLine">
-                                        <div class='userName'>User name <div class='status'>Member</div></div> 
-                                        <div class="badges"><img src="images/Icon Comment.png" alt="comment">  2 <img src="images/Clock.png" alt="clock">  20m</div>
-                                    </div>
-                                    <h2>
-                                            Item title 4
-                                    </h2>
-                                    <p>
-                                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc. 
-                                    </p>
-                                    <div class="tags">
-                                        <img src="images/Tag.png" alt='tag'>
-                                        tag1, tag2, tag3
-                                    </div>
-                                </div>
+                <div class="post">
+                    <img src="images/photo4.png" alt='photo4 of user' width="60px" height="60px">
+                    <div class="infoUser">
+                        <div class="firstLine">
+                            <div class='userName'>User name <div class='status'>Member</div>
                             </div>
+                            <div class="badges"><img src="images/Icon Comment.png" alt="comment"> 2 <img
+                                    src="images/Clock.png" alt="clock"> 20m</div>
+                        </div>
+                        <h2>
+                            Item title 4
+                        </h2>
+                        <p>
+                            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+                            Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non
+                            neque elit. Sed ut imperdiet nisi. Proin condimentum fermentum nunc.
+                        </p>
+                        <div class="tags">
+                            <img src="images/Tag.png" alt='tag'>
+                            tag1, tag2, tag3
+                        </div>
+                    </div>
+                </div>
 
-                            <div class="buttons">
-                                <a class="buttonPrevious" href="#"><img src='images/left.png'>  Previous</a>
-                                <a class="buttonNext" href="#">Next  <img src="images/right.png"></a>
-                            </div>
+                <div class="buttons">
+                    <a class="buttonPrevious" href="#"><img src='images/left.png'> Previous</a>
+                    <a class="buttonNext" href="#">Next <img src="images/right.png"></a>
+                </div>
             </article>
 
             <nav class="foot">
