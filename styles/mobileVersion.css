@@ -1,25 +1,58 @@
-@media (min-width: 780px) and (max-width: 1279px) {
+@media (min-width: 320px) and (max-width: 769px) {
   body {
     width: 100%;
-    min-width: 780px;
-    max-width: 1279px;
+    min-width: 320px;
+    max-width: 769px;
   }
   .mainWidth {
-    min-width: 780px;
-    max-width: 1279px;
-    padding: 10px 20px;
+    min-width: 320px;
+    max-width: 769px;
+    margin: 0 10px;
+  }
+  .mainWidth .bell {
+    display: none;
+  }
+  .mainWidth .message {
+    display: none;
+  }
+  .mainWidth .userProf p {
+    display: none;
+  }
+  .mainWidth .userProf select #city {
+    display: none;
   }
   main {
-    min-width: 780px;
-    max-width: 1279px;
+    min-width: 320px;
+    max-width: 769px;
   }
-  .head ul {
-    min-width: 780px;
-    max-width: 1279px;
-    padding: 0 20px;
+  .head {
+    display: none;
   }
-  .newItem {
-    margin-right: 20px;
+  aside {
+    display: none;
+  }
+  .blog {
+    margin-right: 10px;
+  }
+  .blog .status {
+    margin-left: 5px;
+  }
+  .searchLine .searchIcon1 {
+    background-image: url("../images/search.png");
+    height: 22px;
+    width: 21px;
+    position: relative;
+    top: 10px;
+    display: inline-block;
+  }
+  .searchLine form {
+    display: none;
+  }
+  .searchLine .set {
+    margin-right: 10px;
+  }
+  footer {
+    display: none;
   }
 }
 /*# sourceMappingURL=mobileVersion.css.map */

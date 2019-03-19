@@ -9,6 +9,10 @@
           justify-content: space-between;
 }
 
+.searchLine .searchIcon1 {
+  display: none;
+}
+
 .searchLine form {
   background: #ffffff;
   display: -webkit-box;
